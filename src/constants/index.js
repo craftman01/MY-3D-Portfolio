@@ -1,5 +1,6 @@
 import {
     mobile,
+    aswa,
     backend,
     creator,
     web,
@@ -23,6 +24,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    brahma23,
+    Aswamedha,
+    hackathon,
+    brahma,
+    claranet,
+    blender,
+    ps,
   } from "../assets";
   
   export const navLinks = [
@@ -46,16 +54,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "React Developer",
+      icon: reactjs,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "UI/UX Designer",
       icon: creator,
+    },
+    {
+      title: "Artist",
+      icon: backend,
     },
   ];
   
@@ -81,10 +89,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -105,68 +109,90 @@ import {
       icon: git,
     },
     {
+      name: "docker",
+      icon: docker,
+    },
+    {
       name: "figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "blender",
+      icon: blender,
+    },
+    {
+      name: "ps",
+      icon: ps,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Web Developer",
+      company_name: "Brahma'23",
+      icon: brahma,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a responsive, user-friendly website for collage tech fest, incorporating an intuitive navigation layout and a seamless event registration system.",
+        "Collaborating with cross-functional teams including designers, and other developers to create high-quality web site.",
+        "Designed a mobile-responsive interface ensuring optimal viewing across all devices.",
+        "Seamlessly integrated a secure banking gateway for online payments.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Aswamedha",
+      icon: aswa,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a responsive, user-friendly website for collage tech fest, incorporating an intuitive navigation layout and a seamless event registration system.",
+        "Collaborating with cross-functional teams including designers, and other developers to create high-quality web site.",
+        "Designed a mobile-responsive interface ensuring optimal viewing across all devices.",
+        "Seamlessly integrated a secure banking gateway for online payments.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "React.js Developer",
+      company_name: "NotSoSecure",
+      icon: claranet,
+      iconBg: "#383E56",
+      date: "September 2023 - May 2024",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Create & implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,9 +224,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Brahma '23",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " web-based Intuitive navigation and a robust booking system enhance the fest's digital presence, offering seamless user experience and improved accessibility for attendees.",
       tags: [
         {
           name: "react",
@@ -215,51 +241,65 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: brahma23,
+      source_code_link: "https://github.com/r0king/brahma",
     },
     {
-      name: "Job IT",
+      name: "Aswamedha",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "web-based Intuitive navigation and a robust booking system enhance the fest's digital presence, offering seamless user experience and improved accessibility for attendees.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Aswamedha,
+      source_code_link: "https://github.com/r0king/ashwamedha-home-page",
     },
     {
-      name: "Trip Guide",
+      name: "Hackathon",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        " ReactJS-based web app for ASI Shankara Hackathon 2K23 features intuitive navigation and a robust booking system, providing all necessary information seamlessly ",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: hackathon,
+      source_code_link: "https://github.com/r0king/asiet-hackathon",
     },
+    // {
+    //   name: "Brahma '23",
+    //   description:
+    //     " web-based Intuitive navigation and a robust booking system enhance the fest's digital presence, offering seamless user experience and improved accessibility for attendees.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: brahma23,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

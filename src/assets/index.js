@@ -19,16 +19,25 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
+import blender from "./tech/blender.png";
+import ps from "./tech/ps.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import brahma from "./company/brahma.png";
+import claranet from "./company/claranet.png"
+import aswa from "./company/aswamedha_.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import brahma23 from "./brahma23.png";
+import Aswamedha from "./aswamedha.png";
+import hackathon from "./hackathon.png"
+
 
 export {
   logo,
@@ -59,4 +68,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  brahma23,
+  Aswamedha,
+  hackathon,
+  brahma,
+  claranet,
+  aswa,
+  blender,
+  ps,
 };

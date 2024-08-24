@@ -47,7 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.01, 1)}
         className=' mt-4 text-secondary text-[17px] max-w-7xl leading-[30px] '
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eligendi hic neque tempora aliquid laboriosam, consectetur corporis facere provident esse quo sit! Recusandae, unde commodi numquam qui accusamus cumque aperiam!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati debitis cum natus a quam soluta iusto doloribus reprehenderit dolores amet voluptatum dolore quidem blanditiis sapiente dignissimos, laborum deleniti temporibus dolorum.
+       I'm a passionate frontend developer 💻 with a flair for JavaScript, React, Vue.js, and Node.js. 🚀<br />
+
+Transforming ideas into smooth, user-friendly digital experiences is what I do best. ✨ I'm always excited to learn new technologies 🔍 and love collaborating to solve real-world problems through code. 🤝<br/>
+
+Got an innovative project in mind? Let's team up! 🤓 I'll bring my technical skills and creative problem-solving to the table. Together, we can craft efficient, scalable web solutions that make a real impact. 💡<br/>
+
+Ready to bring your digital vision to life? Let's connect and start building something great! 🌟
+
       </motion.p>
         <div className=' mt-20 flex flex-wrap gap-10 ' >
           {services.map((service, index) => (

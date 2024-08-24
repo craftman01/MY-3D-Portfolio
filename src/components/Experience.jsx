@@ -3,12 +3,9 @@ import { motion } from "framer-motion";
 
 import 'react-vertical-timeline-component/style.min.css';
 import { styles } from "../style";
-// import {expiriences} from '../constants';
-// import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { experiences } from "../constants";
-import { Point } from "@react-three/drei";
 
 const ExperiencCard = ({experience}) => (
   <VerticalTimelineElement 
