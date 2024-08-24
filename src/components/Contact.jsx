@@ -1,11 +1,12 @@
 import {useState, useRef} from 'react'
 import { motion } from 'framer-motion'
-// import { emailjs } from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 
 import { styles } from '../style'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 import { EarthCanvas } from './canvas'
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,9 +17,45 @@ const Contact = () => {
   })
   const [loading, setLoading] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const {name, value } = e.target;
 
-  const handleSubmit = (e) => {}
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_c4tzufj',
+      'template_8h6q0ax',
+      {
+        from_name: form.name,
+        to_name: 'Suraj',
+        from_email: form.email,
+        to_email: 'surajmrajeev001@MeshGouraudMaterial.com',
+        message: form.message,
+      },
+      'qdm4WWTCWKWqpDC30'
+    )
+    .then(() => {
+      setLoading(false);
+      alert(' Thank you . I will get back to you soon');
+
+      setForm({
+        name: '',
+        email:'',
+        message: '',
+      })
+    }, (error) => {
+      setLoading(false)
+
+      console.log(error);
+
+      alert('Something went wrong.')
+    })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden '> 
