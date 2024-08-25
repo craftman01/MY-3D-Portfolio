@@ -32,8 +32,6 @@ import claranet from "./company/claranet.png"
 import aswa from "./company/aswamedha_.png"
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import brahma23 from "./brahma23.png";
 import Aswamedha from "./aswamedha.png";
 import hackathon from "./hackathon.png"
@@ -66,8 +64,6 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
   brahma23,
   Aswamedha,
   hackathon,
