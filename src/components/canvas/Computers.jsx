@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from '../Loader';
    
 
-const Computers = ( isMobile ) => {
+const Computers = ( {isMobile} ) => {
  
     const computer = useGLTF('./desktop_pc/scene.gltf')
 
@@ -33,12 +33,12 @@ const Computers = ( isMobile ) => {
   );
 }
 const ComputerCanvas = () =>{ 
-  const [isMobile, setIaMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-wisth: 500px)');
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
 
-    setIaMobile(mediaQuery.matches);
+    setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = ( event ) =>{
       setIsMobile(event.matches);

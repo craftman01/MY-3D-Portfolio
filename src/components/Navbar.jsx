@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { styles } from '../style';
 import { navLinks } from '../constants';
 import { logo, menu, close } from '../assets';
-import { setUpdateRange } from '@react-three/drei/helpers/deprecated';
+
 
 const Navbar = () => {
   const [active, setActive] = useState('')
