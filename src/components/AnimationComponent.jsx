@@ -14,7 +14,7 @@ const LoadingCount = ({ onComplete }) => {
             clearInterval(interval);
             return 100;
           }
-          return prevCount + 1;
+          return prevCount + 5;
         });
       }, 50); // Adjust the interval for faster or slower counting
   
@@ -88,7 +88,7 @@ const AnimationComponent = () => {
 
       <div
         id="intro-slider"
-        className={`h-screen p-10 bg-[#915eff] absolute top-0 left-0 font-spaceGrotesk z-10 w-full flex flex-col gap-10 tracking-tight`}
+        className={`h-screen ${styles.paddingX} bg-[#915eff] absolute top-0 left-0 font-spaceGrotesk z-10 w-full flex flex-col gap-10 tracking-tight`}
       >
         <h1 className={`${styles.loadingText} text-white`}/*"text-9xl text-black font-popins"*/ id="title-1">
           React Developer
