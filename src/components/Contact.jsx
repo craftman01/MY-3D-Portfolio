@@ -72,7 +72,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className=' mt-12 flex flex-col gap-8'
         >
-          <lable className=" flex flex-col " >
+          <label className=" flex flex-col " >
             <span className=' text-white font-medium mb-4 '>
               Your Name
             </span>
@@ -85,8 +85,8 @@ const Contact = () => {
             className='bg-tertiary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium '
             />
 
-          </lable>
-          <lable className=" flex flex-col " >
+          </label>
+          <label className=" flex flex-col " >
             <span className=' text-white font-medium mb-4 '>
               Your Email
             </span>
@@ -99,8 +99,8 @@ const Contact = () => {
             className='bg-tertiary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium '
             />
 
-          </lable>
-          <lable className=" flex flex-col " >
+          </label>
+          <label className=" flex flex-col " >
             <span className=' text-white font-medium mb-4 '>
               Your Message
             </span>
@@ -112,7 +112,7 @@ const Contact = () => {
             placeholder="what do u want to say?"
             className='bg-tertiary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium '
             />
-          </lable>
+          </label>
           <button 
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary '

@@ -7,12 +7,12 @@ import CanvasLoader from '../Loader';
 
 const Computers = ( {isMobile} ) => {
  
-    const computer = useGLTF('./desktop_pc/scene.gltf')
+    const computer = useGLTF('./desktop_pc5/scene.gltf')
 
   return (
   <mesh>
       <hemisphereLight 
-        intensity={2} 
+        intensity={5} 
         groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
@@ -53,7 +53,7 @@ const ComputerCanvas = () =>{
   
   return (
     <Canvas 
-      frameLoop="demand"
+      
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
