@@ -5,6 +5,10 @@ import { Decal, Float, OrbitControls, Preload, useTexture } from "@react-three/d
 
 import CanvasLoader from '../Loader';
 
+// Utility function to detect if the user is on a mobile device
+const isMobile = () => {
+  return /Mobi|Android/i.test(navigator.userAgent);
+};
 
 const Ball = (props) => { 
   const [decal] = useTexture([props.imgUrl]);
@@ -39,7 +43,10 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
       >
         <Suspense fallback={<CanvasLoader />}  >
-        <OrbitControls enableZoom={false} />
+        <OrbitControls
+        enablePan={!isMobile()} 
+        enableRotate={!isMobile()} 
+        enableZoom={false}  />
           <Ball imgUrl={icon} />
         </Suspense>
 
