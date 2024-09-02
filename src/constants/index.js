@@ -1,6 +1,7 @@
 import {
     aswa,
     backend,
+    pic,
     creator,
     web,
     javascript,
@@ -56,6 +57,7 @@ import {
       title: "Artist",
       icon: backend,
     },
+    
   ];
   
   const technologies = [

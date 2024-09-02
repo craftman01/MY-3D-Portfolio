@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../style';
-import { ComputersCanvas } from './canvas';
+// import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -13,14 +13,26 @@ const Hero = () => {
         </div>
         <div className=''>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'am <span className='text-[#915eff]'>M R SURAJ</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-10 mb-2 text-white-100`}>
             I Create UI/UX Designs with front-end development expertise, specializing in React JS.<br  className='sm:block hidden' />
              {/* Skilled in designing intuitive, responsive interfaces that enhance user experience. Strong collaborator, focused
             on delivering high-quality digital products. */}
           </p>
+         <button className='bg-slate-300 py-3 px-8 outline-none w-fit text-tertiary font-bold shadow-md shadow-primary lg:text-[20px] sm:text-[18px] xs:text-[17px] text-[16px] lg:leading-[18px] rounded-2xl '>
+          <a
+           href='M-R-SURAJ.pdf'
+           download="M-R-SURAJ"           
+           target='_blank' 
+           rel="noreferrer"
+
+          >
+            Resume
+          </a>
+          
+         </button>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <div className=' absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
               <a href="#about" >
                 <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-stretch items-start p-2 '  >
