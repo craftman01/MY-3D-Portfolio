@@ -5,7 +5,7 @@ import { styles } from "../style"
 import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
-import { github } from "../assets"
+import { web1 } from "../assets"
 // import { faceDirection } from "three/examples/jsm/nodes/Nodes.js"
 const ProjectCard = ({ index, name, description, tags, image, source_code_link}) => {
 
@@ -32,8 +32,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link})
               className=" black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
                 <img
-                 src={github}
-                 alt="github"
+                 src={web1}
+                 alt="web1"
                  className=" w-1/2 h-1/2 object-contain"
                 />
             </div>

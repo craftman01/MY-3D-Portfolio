@@ -1,7 +1,9 @@
 import {
     aswa,
+    web1,
     backend,
     pic,
+    hack,
     creator,
     web,
     javascript,
@@ -131,6 +133,20 @@ import {
         "Collaborating with cross-functional teams including designers, and other developers to create high-quality web site.",
         "Designed a mobile-responsive interface ensuring optimal viewing across all devices.",
         "Seamlessly integrated a secure banking gateway for online payments.",
+      ],
+    },
+    
+    {
+      title: "Front-End",
+      company_name: "Adi shankara Hackathon 2023",
+      icon: hack,
+      iconBg: "#383E56",
+      date: "March 2023 ",
+      points: [
+        "Developed a responsive, user-friendly website for Hackathon compatition, incorporating an event registration system.",
+        "Collaborating with cross-functional teams including designers, and other developers to create high-quality web site.",
+        "Designed a mobile-responsive interface ensuring optimal viewing across all devices.",
+         
       ],
     },
     {
@@ -270,7 +286,7 @@ import {
         },
       ],
       image: hackathon,
-      source_code_link: "https://github.com/r0king/asiet-hackathon",
+      source_code_link: "https://hackathon.adishankara.ac.in/",
     },
     // {
     //   name: "Brahma '23",

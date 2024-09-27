@@ -3,6 +3,8 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import web1 from "./web2.png";
+
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -31,6 +33,7 @@ import tesla from "./company/tesla.png";
 import brahma from "./company/brahma.png";
 import claranet from "./company/claranet.png"
 import aswa from "./company/aswamedha_.png"
+import hack from "./company/hack.png"
 
 import carrent from "./carrent.png";
 import brahma23 from "./brahma23.png";
@@ -45,6 +48,7 @@ export {
   creator,
   mobile,
   web,
+  web1,
   github,
   menu,
   close,
@@ -74,4 +78,5 @@ export {
   aswa,
   blender,
   ps,
+  hack,
 };
