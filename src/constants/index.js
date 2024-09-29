@@ -251,7 +251,7 @@ import {
         },
       ],
       image: brahma23,
-      source_code_link: "https://github.com/r0king/brahma",
+      source_code_link: "http://r0king.github.io/brahma",
     },
     {
       name: "Aswamedha",
